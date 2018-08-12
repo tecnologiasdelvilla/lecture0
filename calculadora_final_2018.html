@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora extendida</title>
+    <script src="calc.js"></script>
+    <link id ="css" href="calc1.css" rel="stylesheet" type="text/css" media="all"/>
+    
+    </head>
+<body onload="inic()">
+<H1>JavaScript: Calculadora Extendida</H1>
+
+
+<div id = "calculadora">
+<table border=1px>
+<tr><th colspan="4"> CALCULADORA</th></tr>
+<tr>
+<td colspan = "4" align ="center">
+<input id="num" type="text" size="18" onclick="vaciar()" style="text-align: right;">
+</td>
+</tr>
+
+<tr align="center" >
+    <td> <button  class = "op" onclick="mas()"> + </button></td>
+    <td> <button  class = "op" onclick="menos ()">  -  </button></td>
+    <td> <button class = "op" onclick=" multi ()"> x </button></td>
+    <td> <button class = "op" onclick="div ()"> / </button></td>
+    
+  </tr>
+  <tr align="center">
+   <td> <button class = "op" onclick="quad() "> x<sup>2</sup></button> </td>
+   <td> <button class = "op" onclick="sqrt()"> √ </button> </td> 
+    <td> <button class = "op" onclick="xy()"> x<sup>y</sup></button></td>
+    <td> <button class = "op" onclick="inv ()"> 1/x </button></td>
+    
+  </tr>
+  <tr align="center">
+   	
+    <td> <button class = "op" onclick ="exp()"> e<sup>a</sup></button></td>
+	<td> <button class = "op" onclick="Ln ()"> Ln </button></td>
+    <td> <button class = "op" onclick="log()"> log </button> </td>
+    <td> <button class = "op" onclick="fact()"> n!</button></td>
+  </tr>
+  <tr align="center">
+    <td> <button class = "op" onclick="sen()"> sen</button></td>
+    <td> <button class = "op" onclick="cos()"> cos </button></td>
+    <td> <button class = "op" onclick="tg() "> tg </button> </td>
+    <td> <button class = "op" onclick= "suma ()">Sum </button> </td> 
+   
+  </tr>
+  
+    <tr align="center">
+    <td> <button class = "op" onclick="asen ()"> sen<sup>-1</sup></button></td>
+    <td> <button class = "op" onclick="acos ()"> cos<sup>-1</sup> </button> </td>
+    <td> <button class = "op" onclick="atag ()">tg<sup>-1</sup> </button> </td>
+    <td> <button class = "op" onclick= "prod ()">Prod</button></td>
+  </tr>
+  
+  <tr align="center">
+    <td> <button class = "op" onclick= "primo ()"> Primo</button></td>
+    <td> <button class = "op" onclick= "divi ()"> Dvsrs </button> </td>
+    <td> <button class = "op" onclick= "mcd ()">mcd</button> </td>
+    <td> <button class = "op" onclick= "mcm ()">mcm</button></td>
+  </tr>
+  <tr align="center">
+    <td> <button class = "op" onclick="num.value = pi">&#928; </button> </td>
+    <td> <button class = "op" onclick="num.value = e">  e </button></td>
+    <td> <button class = "op" onclick="num.value += ''"> ->M</button> </td>  
+    <td> <button class = "op" onclick= "movIz()">M-></button></td>
+  </tr>
+  
+  <tr align="center">
+    <td> <button  onclick="num.value += '1'"> 1 </button></td>
+    <td> <button  onclick="num.value += '2'"> 2 </button></td>
+    <td> <button  onclick="num.value += '3'"> 3 </button></td>
+	<td> <button class = "op" onclick="ent ()"> ent</button> </td> 
+	
+    
+  </tr>
+  <tr align="center">
+    <td> <button  onclick="num.value += '4'"> 4 </button></td>
+    <td> <button  onclick="num.value += '5'"> 5 </button></td>
+    <td> <button  onclick="num.value += '6'"> 6 </button></td> 
+	<td> <button  onclick="num.value += ','"> ,</button></td>
+    
+  </tr>
+  <tr align="center">
+    <td> <button onclick="num.value += '7'"> 7 </button></td>
+    <td> <button onclick="num.value += '8'"> 8 </button> </td>
+    <td> <button onclick="num.value += '9'"> 9 </button> </td>
+    <td> <button onclick="num.value += '.'"> • </button></td>
+  </tr>
+ 
+  
+ <tr align="center">
+   
+  <td > <button  class ="op" onclick="calcular ()"> = </button></td>
+  <td><button onclick ="num.value += '0'">0</button></td>
+  <td> <button class = "op" onclick="num.value = -1*num.value"> &plusmn;</button> </td>
+  <td> <button class = "op" onclick="vaciar ()"> C </button></td> 
+ </tr>
+  
+</table>
+</div>
+
+
+
+
+<ADDRESS>
+modificada Antonio Molla <BR>
+
+</ADDRESS>
+
+</body>
+</html>
+
