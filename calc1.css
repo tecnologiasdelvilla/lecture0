@@ -37,7 +37,7 @@ table	{
 			  border-radius: 20px;
 			}
 			
-		
+tr {text-align: center;}		
 			
 button		{ background-color: #eeefea73; width: 60px; heigth: 30px;  margin:auto; 
 			padding: 0.30em; border: 2px outset #f7f3f3;
@@ -58,5 +58,5 @@ button:hover {background-color: #d0d0cc; border: 2px inset border-radius:2px ins
 			  border-radius: 5px;
 			  width: 95%;
 			  display: inline-block;
-			   }
+			  text-align: right;}
 		   
